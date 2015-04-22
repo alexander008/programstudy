@@ -61,7 +61,7 @@ public class ZooKeeperTest {
 	public static void main(String[] args) {
 		ZooKeeperTest zkTest =  new ZooKeeperTest();
 		try {
-			zkTest.create();
+			zkTest.delete();
 		} catch (IOException | KeeperException | InterruptedException e) {
 			e.printStackTrace();
 		}
